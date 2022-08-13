@@ -39,8 +39,44 @@
                 </svg>
             </button>
             <div class="modal-inner modal-buy">
+                <p class="modal-buy__text">Happy you are here</p>
                 <form class="modal-buy__form-field">
-                    <p class="modal-buy__text">Happy you are here</p>
+
+                    <label class="modal-buy__label" for="flavour-choose" placeholder="Choose here">Choose flavour you wish</label>
+                    <input class="modal-buy__input" list="flavours" name="flavour-choose" id="flavour-choose" />
+                    
+                    <datalist id="flavours">
+                        <option>Chocolate</option>
+                        <option>Vanilla</option>
+                        <option>Strawberry</option>
+                        <option>Pistachio</option>
+                        <option>Bubblegum</option>
+                    </datalist>
+
+                    <label class="modal-buy__label" for="size">Select Size</label>
+                    <select class="modal-buy__select" id="size" name="select size">
+                        <option>Extra Small</option>
+                        <option>Small</option>
+                        <option selected>Medium</option>
+                        <option>Large</option>
+                    </select>
+
+
+
+                    
+                    
+                    
+                        
+                        <label class="modal-buy__label">
+                          Name
+                         <input class="modal-buy__input" type="text" name="username" placeholder="Enter your Name"/>
+                        </label>
+
+                        <label class="modal-buy__label">
+                          Email
+                         <input class="modal-buy__input" type="email" name="email" placeholder="Enter your Email"/>
+                        </label>
+                        
                 </form>
                
 
